@@ -19,4 +19,4 @@
 - How you are meeting the requirements of the project:
     - Click event in list panel to load content into show panel
     - Submit event to generate content into show panel
-    - Click event for a “Like” button that tracks and displays # of likes
+    - Click event for a “Like” button that tracks and displays # of likes!
