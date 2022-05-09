@@ -1,7 +1,8 @@
 # Phase-1-final-project
 
 - The basic story of your application:
-The application lists out all the US public holidays in 2023. The users are able to select each holiday for detailed information, to submit local holidays, and to bookmark it using the “Like” button.
+The application lists out all the US public holidays in 2023. 
+The users are able to select each holiday for detailed information by clicking. Also, users can upload local holidays, and users can bookmark it using the “Like” button.
 
 - The core features of your MVP:
 A list of national holiday panel, with the date and name of each holiday.
