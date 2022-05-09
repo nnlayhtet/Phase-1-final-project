@@ -1,5 +1,6 @@
 # Phase-1-final-project
 
+<<<<<<< HEAD
 -The basic story of your application:
 The application lists out all the US public holidays in 2023. The users are able to select each day for detailed information 
 
@@ -13,3 +14,6 @@ https://date.nager.at/api/v2/publicholidays/2023/US
 
 -#How you are meeting the requirements of the project:
 1. click event in list panel to load content into show panel
+=======
+//testing git push
+>>>>>>> origin/fis-wip
