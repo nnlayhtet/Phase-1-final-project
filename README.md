@@ -17,6 +17,6 @@
     - Merging the data from API and local submission.
 
 - How you are meeting the requirements of the project:
-    1. Click event in list panel to load content into show panel
-    2. Submit event to generate content into show panel
-    3. Click event for a “Like” button that tracks and displays # of likes
+    - Click event in list panel to load content into show panel
+    - Submit event to generate content into show panel
+    - Click event for a “Like” button that tracks and displays # of likes
