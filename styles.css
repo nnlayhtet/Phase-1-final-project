@@ -12,8 +12,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; */
+    
+/*     
     display: grid;
-    grid-template-columns: 2fr 8fr
+    grid-template-columns: 2fr 8fr */
   }
   
   header {
@@ -23,6 +25,10 @@
     background-color: blue;
   }
   
+  #ph-list-panel {
+    background-color: aqua;
+  }
+
   #public-holidays {
     /* display: flex;
     overflow-x: auto;
@@ -31,6 +37,7 @@
     color: red;
   }
 
+
   #local-holidays {
     /* display: flex;
     overflow-x: auto;
@@ -38,6 +45,14 @@
     max-width: calc(100vw - 2rem); */
     color: green;
   }
+
+  #show-panel {
+  background-color: magenta;
+  }
+
+
+
+
   #ramen-menu img {
     flex: 0 1 auto;
     height: 150px;

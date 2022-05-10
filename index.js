@@ -27,13 +27,15 @@ fetchAndRender()
 
 function renderHoliday(element){
     showHoliday.innerHTML = ""
-    let nameDisplay = document.createElement('li')
+    let nameDisplay = document.createElement('p')
     nameDisplay.textContent = `Name of holiday : ${element.name}`
-    let dateDisplay = document.createElement('li')
+    let dateDisplay = document.createElement('p')
     dateDisplay.textContent = `Date : ${element.date}` 
-    let type = document.createElement('li')
+    let type = document.createElement('p')
     type.textContent = `Type of holiday : ${element.type}`
-    showHoliday.append(nameDisplay,dateDisplay,type)
+    let likeButton = document.createElement('button')
+    likeButton.textContent = 'Like'
+    showHoliday.append(nameDisplay,dateDisplay,type,likeButton)
 
 
 
