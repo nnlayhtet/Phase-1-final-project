@@ -1,17 +1,17 @@
-/* * {
+* {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
   }
   
   body {
-    padding: 1rem;
+    /* padding: 1rem;
     text-align: center;
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
   
   header {
@@ -21,13 +21,21 @@
     background-color: black;
   }
   
-  #ramen-menu {
-    display: flex;
+  #public-holidays {
+    /* display: flex;
     overflow-x: auto;
     margin: 1rem 0;
-    max-width: calc(100vw - 2rem);
+    max-width: calc(100vw - 2rem); */
+    color: red;
   }
-  
+
+  #local-holidays {
+    /* display: flex;
+    overflow-x: auto;
+    margin: 1rem 0;
+    max-width: calc(100vw - 2rem); */
+    color: green;
+  }
   #ramen-menu img {
     flex: 0 1 auto;
     height: 150px;
@@ -99,4 +107,8 @@
     margin: 0.5rem 0;
     color: white;
     background-color: black;
-  } */
+  }
+
+
+
+
