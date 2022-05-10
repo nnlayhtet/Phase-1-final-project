@@ -1,7 +1,7 @@
 //Our code here
 
 let phList = document.getElementById('ph-list')
-
+let showHoliday = document.getElementById('show-holiday')
 
 //Getting data using fetch and render on page
 function fetchAndRender(){
@@ -15,10 +15,29 @@ function renderHolidayList(data){
         holidayName.textContent = element.name
         //console.log(holidayName)
         phList.append(holidayName)
+
+        holidayName.addEventListener('click',()=>{
+            renderHoliday(element)
+            
+        })
     })
 
 }
 fetchAndRender()
+
+function renderHoliday(element){
+    let nameDisplay = document.createElement('li')
+    nameDisplay.textContent = `Name of holiday : ${element.name}`
+    let dateDisplay = document.createElement('li')
+    dateDisplay.textContent = `Date : ${element.date}` 
+    let type = document.createElement('li')
+    type.textContent = `Type of holiday : ${element.type}`
+    showHoliday.append(nameDisplay,dateDisplay,type)
+
+
+
+
+}
 
 
 
