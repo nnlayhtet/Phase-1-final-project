@@ -12,6 +12,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; */
+    display: grid;
+    grid-template-columns: 2fr 8fr
   }
   
   header {

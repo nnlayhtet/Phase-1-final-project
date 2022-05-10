@@ -26,6 +26,7 @@ function renderHolidayList(data){
 fetchAndRender()
 
 function renderHoliday(element){
+    showHoliday.innerHTML = ""
     let nameDisplay = document.createElement('li')
     nameDisplay.textContent = `Name of holiday : ${element.name}`
     let dateDisplay = document.createElement('li')
