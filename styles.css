@@ -27,6 +27,8 @@
   
   #ph-list-panel {
     background-color: aqua;
+    width : 50%;
+    
   }
 
   #public-holidays {
@@ -48,6 +50,8 @@
 
   #show-panel {
   background-color: magenta;
+  width: 50%;
+  
   }
 
 

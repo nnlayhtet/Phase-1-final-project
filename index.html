@@ -2,14 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>US Public Holidays 2023</title>
+    <title>Public Holidays</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script defer type="text/javascript" src="./index.js"></script>
 </head>
 <body>
   <header>
-    <h1>US Public Holidays 2023</h1>
+    <h1>Public Holidays Search By Country And Year</h1>
   </header>
+    <label>Select Country: </label>
+    <select id = select-country>
+      <option value="US">United States</option>
+      <option value="BR">Brazil</option>
+      <option value="CA">Canada</option>
+      <option value="CN">China</option>
+      <option value="FR">France</option>
+      <option value="DE">Germany</option>
+      <option value="JP">Japan</option>
+      <option value="MS">Mexico</option>
+      <option value="GB">United Kingdom</option>
+      <option value="VN">Vietnam</option>
+
+    </select>
+    <label>Select Year: </label>
+    <select id = select-year>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+      <option value="2024">2024</option>
+      <option value="2025">2025</option>
+      <option value="2026">2026</option>
+      <option value="2027">2027</option>
+      <option value="2028">2028</option>
+      <option value="2029">2029</option>
+      <option value="2030">2030</option>
+
+    </select>
+
+    <button id="go-button">Go!</button>
+
     <div id="ph-list-panel">
       <h3 id = "public-holidays">Public Holidays</h3>
       <ul id = "ph-list">
@@ -20,22 +50,15 @@
     <div id ="show-panel">
       <ul id = "show-holiday"></ul>
     </div>
-    <div id="lh-list-panel">
-      <h3 id = "local-holidays">Local Holidays</h3>
-      <ul id = "lh-list">
-      <!-- insert Li -->
-      </ul>
-    </div>
-    
-    <form id="new-holiday">
+    <form id="new-holiday-form">
         <h4>Add New Holiday</h4>
-        <label>Name: </label>
+        <label>Name of holiday: </label>
         <input type="text" name="name" id="new-name" />
         <label>Date: </label>
         <input type="text" name="date" id="new-date" />
-        <label>Location: </label>
-        <input type="text" name="location" id="new-location" />
+        <label>Type of holiday: </label>
+        <input type="text" name="type" id="new-type" />
         <input type="submit" value="Create" />
-      </form>
+    </form>
 </body>
 </html>
