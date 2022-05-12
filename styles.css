@@ -8,7 +8,7 @@
     background-image: url("https://www.aqbottledwater.com/wp-content/uploads/2016/01/beach-holiday.jpg");
     background-size: 100%;                    
     background-repeat:   no-repeat;
-    background-position: center center
+    background-position: center center;
   }
   
 
@@ -40,31 +40,36 @@
     text-align: center;
   }
   
-  #ph-list-panel {
+  div#ph-list-panel {
     /* background-color: aqua; */
-    /* text-align : center; */
-    margin: center;
-    
+    /* text-align : center; */   
+    margin-left: 10%; 
+    float : left;
   }
+
 
   #public-holidays {
     color: brown;
-    font-size: 28 px;
+    font-size: 35 px;
+    margin-left: 10%;
   }
 
-  #show-panel {
-    /* background-color: magenta; */
+  ul#show-holiday {
+    background-color: lightgray;
+    text-align : center;
+    color:black;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px rgb(129, 22, 22);
   }
 
   form {
     margin: 1rem 0;
-    width: 300px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 20%;
   }
   
   input,
