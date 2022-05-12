@@ -18,12 +18,15 @@
     color: brown;
     background-color: lightblue;
     text-align: center;
+    line-height: 2;
+
   }
 
   div#select-bar{
     display : flex;
     background-color: grey;
     justify-content: center;
+    line-height: 1.5;
   }
 
   label.select-label{
@@ -41,16 +44,28 @@
   }
   
   div#ph-list-panel {
-    /* background-color: aqua; */
-    /* text-align : center; */   
     margin-left: 5%; 
     float : left;
   }
 
-
   #subtitle {
     color: brown;
     margin-left: 0%;
+    line-height: 2;
+  }
+
+  li.holiday-name {
+    font-size: 20px;
+    color:magenta;
+    cursor:pointer;
+    list-style-type: none;
+    line-height: 1.2;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+  li.holiday-name:hover{
+    background-color: lightblue;
   }
 
   ul#show-holiday {
@@ -58,6 +73,7 @@
     text-align : center;
     color:black;
     text-shadow:1px 1px 10px #fff, 1px 1px 10px rgb(129, 22, 22);
+    line-height: 1.5;
   }
 
   form {

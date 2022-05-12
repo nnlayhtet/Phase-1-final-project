@@ -23,10 +23,11 @@ function renderHolidayList(data){
     showHoliday.innerHTML = ""
     data.map(element=>{
         let holidayName = document.createElement('li')
+        holidayName.className = "holiday-name"
         holidayName.textContent = element.name.toUpperCase()
-        holidayName.style.color = 'blue'
-        holidayName.style.textDecoration = 'underline'
-        holidayName.style.fontSize = '18px'
+        // holidayName.style.color = 'magenta'
+        // holidayName.style.textDecoration = 'underline'
+        // holidayName.style.fontSize = '18px'
 
         phList.append(holidayName)
         holidayName.addEventListener('click',()=>{
@@ -69,9 +70,7 @@ newHolidayForm.addEventListener('submit',(e)=>{
     e.preventDefault()
     let newNameTag = document.createElement('li')
     newNameTag.textContent = `${e.target.name.value} (new)`
-    newNameTag.style.color = 'blue'
-    newNameTag.style.textDecoration = 'underline'
-    newNameTag.style.fontSize = '18px'
+    newNameTag.className = "holiday-name"
     phList.append(newNameTag)
     let newObj ={'name':`${e.target.name.value}`, 'date':`${e.target.date.value}`, 'type':`${e.target.type.value}`}
     newNameTag.addEventListener('click',()=>renderHoliday(newObj))
