@@ -7,6 +7,7 @@ let newHolidayForm = document.getElementById('new-holiday-form')
 let selectCountry = document.getElementById('select-country')
 let selectYear = document.getElementById('select-year')
 let goButton = document.getElementById('go-button')
+let subtitle = document.getElementById('subtitle')
 
 //Getting data using fetch and render on page
 fetchAndRender()
@@ -60,7 +61,8 @@ selectYear.addEventListener('change',(e)=>{
     year = e.target.value
 })
 goButton.addEventListener('click', function(){
-    fetchAndRender(country, year) 
+    fetchAndRender(country, year)
+    subtitle.textContent = `Public Holidays in ${country} in ${year}`
 })
 
 newHolidayForm.addEventListener('submit',(e)=>{
