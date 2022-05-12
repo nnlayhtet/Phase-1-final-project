@@ -16,6 +16,7 @@ function fetchAndRender(country='US', year='2022'){
     .then(data => renderHolidayList(data))
 }
 
+//
 function renderHolidayList(data){
     phList.innerHTML = ""
     showHoliday.innerHTML = ""
@@ -31,6 +32,7 @@ function renderHolidayList(data){
     })
 }
 
+//
 function renderHoliday(element){
     showHoliday.innerHTML = ""
     let nameDisplay = document.createElement('p')
@@ -43,17 +45,16 @@ function renderHoliday(element){
     // // // likeButton.textContent = 'Like'
     showHoliday.append(nameDisplay,dateDisplay,type)
 }
+
+//
 let country = 'US';
 selectCountry.addEventListener('change',(e)=>{
     country = e.target.value
 })
-
 let year = '2022';
 selectYear.addEventListener('change',(e)=>{
     year = e.target.value
 })
-
-
 goButton.addEventListener('click', function(){
     fetchAndRender(country, year) 
 })
@@ -68,6 +69,5 @@ newHolidayForm.addEventListener('submit',(e)=>{
     let newObj ={'name':`${e.target.name.value}`, 'date':`${e.target.date.value}`, 'type':`${e.target.type.value}`}
     newNameTag.addEventListener('click',()=>renderHoliday(newObj))
     newHolidayForm.reset()
-
 })
 
