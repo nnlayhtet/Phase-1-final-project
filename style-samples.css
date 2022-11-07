@@ -1,0 +1,57 @@
+body {
+    /* padding: 1rem;
+    text-align: center;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 8fr
+    background-image: url("https://wallpaperaccess.com/full/46062.jpg");
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;  */
+  }
+  #public-holidays {
+    /* display: flex;
+    overflow-x: auto;
+    margin: 1rem 0;
+    max-width: calc(100vw - 2rem); */
+    color: red;
+  }
+  #ramen-menu img {
+    flex: 0 1 auto;
+    height: 150px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  #ramen-menu img:last-child {
+    margin-right: 0;
+  }
+  
+  #ramen-detail {
+    position: relative;
+  }
+  
+  .detail-image {
+    height: 350px;
+  }
+  
+  .name,
+  .restaurant {
+    position: absolute;
+    left: 10px;
+    padding: 0.25rem 5rem 0.25rem 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .name {
+    bottom: 60px;
+  }
+  
+  .restaurant {
+    bottom: 20px;
+  }
+  

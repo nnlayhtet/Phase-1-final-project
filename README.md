@@ -1,4 +1,4 @@
-# Phase-1-final-project
+# Phase-1-final-project (Yixin & NyiNyi)
 
 - The basic story of your application:
 
@@ -22,5 +22,3 @@
     - Submit event to generate content into show panel
     - Click event for a “Like” button that tracks and displays # of likes!
 
-
-    //nnlayhtet!
